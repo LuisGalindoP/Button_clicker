@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+}
+.topNav {
+    background-color: gray;
+    width: 1120px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    font-size: 60px;
+    font-weight: bold;
+    /* margin-left: 50px; */
+}
+.loginButton {
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: 120px;
+    height: 35px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 1px 0px black;
+    /* margin-right: 10px; */
+}
+.searchBar {
+    width: 500px;
+    height: 30px;
+}
+.mainContent {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.boxLeft {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 750px;
+    height: 600px;
+}
+.card1 {
+    border: 4px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 750px;
+    height: 300px;
+}
+.word {
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.noun {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.plural {
+    font-size: 40px;
+    margin-left: 20px;
+}
+.inclinado {
+    font-style: italic;
+}
+.likes {
+    background-color: rgb(255, 187, 0);
+    width: 160px;
+    height: 40px;
+    box-shadow: 3px 3px 1px 0px black;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 3px solid;
+    font-weight: bold;
+    font-size: 20px;
+}
+.alignRight {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.boxRight {
+    margin: 20px 0px;
+    display: flex;
+    background-color:aqua;
+    width: 350px;
+    height: 180px;
+}
+.likesGreen {
+    background-color: rgb(16, 117, 16);
+    width: 300px;
+    height: 40px;
+    box-shadow: 3px 3px 1px 0px black;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 3px solid;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contentrightTop {
+    border: 4px solid;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
